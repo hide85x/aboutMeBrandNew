@@ -94,7 +94,7 @@ a:active, a:focus {
 
 .active {
     opacity: 1;
-    border:1px solid black
+    border:3px solid black
 }
 i {
     margin: 0 10px;
@@ -145,6 +145,7 @@ i:hover {
     padding-bottom: 2em;
 }
 #sectionB {
+    padding: 0 150px;
     background:#333 ;
     color:#eaeaea ;
  }
@@ -195,7 +196,6 @@ i:hover {
 @keyframes round {
     0% {border-radius:0px}
     100% { 
-           text-decoration: underline black;
            opacity: 1
         }   
 }
@@ -227,6 +227,9 @@ i:hover {
     #sectionA {
         padding-top:50px;
     }
+    #sectionB {
+        padding: 0 0px
+    }
     #navbar {
         padding: 2px 0;
         max-height: auto   
@@ -254,7 +257,7 @@ i:hover {
     }
     #me {
         padding-top: 90px;
-        width: 50%
+        width: 30%
     }
 }
 @media (min-width:800px) {
