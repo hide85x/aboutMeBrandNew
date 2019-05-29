@@ -1,3 +1,13 @@
+
+$(document).ready(function(){
+    $('#about').addClass('active')
+    $('li').click(function(){
+        $(this).addClass('active').siblings().removeClass('active')       
+    })
+
+
+})
+
 function scrol(cardId) {
     
     const elem= document.getElementById(cardId)
@@ -10,11 +20,3 @@ function scrol(cardId) {
         })
 
 }  
-$(document).ready(function(){
-    $('#about').addClass('active')
-    $('li').click(function(){
-        $(this).addClass('active').siblings().removeClass('active')       
-    })
-
-
-})
