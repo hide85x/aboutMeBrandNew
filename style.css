@@ -77,7 +77,8 @@ li {
 
 }
 li:hover {
-    animation: round 0.5s forwards
+    animation: round 0.5s forwards;
+    cursor: pointer;
 }
 a {
     text-decoration: none;
