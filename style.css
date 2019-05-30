@@ -154,17 +154,28 @@ i:hover {
  #sectionB img {
      min-width: 150px
  }
- #sectionD {
-    background: #eaeaea;
-    color:black;
-    display: flex;
-    align-items: center;
-    justify-content: center
- }
+ /* #sectionC {
+     display: grid ;
+     margin: 0;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     place-items: center center;
+    } */
+    
+#sectionD {
+   background: #eaeaea;
+   color:black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   place-items: center
+}
  #sectionC {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
+     margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center
  }
  #sectionC>div {
 
@@ -172,10 +183,6 @@ i:hover {
     width: 200px;
     height: 200px;
     margin:20px 20px;
-    vertical-align: middle;
-    
-    text-align: center;
-
  }
  #text {}
 
