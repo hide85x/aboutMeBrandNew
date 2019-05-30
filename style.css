@@ -65,7 +65,7 @@ p {
 
 }
 li {
-    padding: 1px;
+    padding: 1px 20px;
     margin: 3px 5px;
     white-space: nowrap;
     /* border: 1px dotted rgba(0, 0, 0, 0.562); */
@@ -106,8 +106,9 @@ i:hover {
 }
 #me {
     padding-top: 20px;
+    filter: saturate(0.4);
     width: 16%;
-    opacity: 0.6;
+    opacity: 0.8;
    
 }
 .contentWrap {
@@ -141,24 +142,29 @@ i:hover {
     z-index: -1;
     opacity: 0.2
 }
-#sectionA {
+ #sectionA {
     padding-top: 50px;
     padding-bottom: 2em;
 }
-#sectionB {
-    padding: 0 150px;
+ #sectionB {
+    padding: 0 50px;
     background:#333 ;
     color:#eaeaea ;
+ }
+ #sectionB img {
+     min-width: 150px
  }
  #sectionD {
     background: #eaeaea;
     color:black;
     display: flex;
+    align-items: center;
     justify-content: center
  }
  #sectionC {
      display: flex;
-     flex-wrap: wrap
+     flex-wrap: wrap;
+     justify-content: center;
  }
  #sectionC>div {
 
@@ -171,6 +177,7 @@ i:hover {
     text-align: center;
 
  }
+ #text {}
 
 .break {
      color:black;
@@ -261,16 +268,16 @@ i:hover {
         width: 30%
     }
 }
-@media (min-width:800px) {
+@media (min-width:1000px) {
     .grid {
         display: flex;
         flex-direction: row;
         justify-content: center
     }
     .text{
-        padding: 0 200px;
+        padding: 0 300px;
         margin: 10px;
-        font-size: 1.4em
+        font-size: 1.5em
     }
    
 }
