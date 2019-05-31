@@ -92,13 +92,7 @@ li#about {
     /* border: 1px dotted rgba(0, 0, 0, 0.562); */
     display: flex;
     word-wrap: none;
-    font-size: 1.6em;
     text-align: center;
-    opacity: 1;
-
-
-
-
 }
 li:hover {
     animation: round 0.5s forwards;
@@ -202,7 +196,7 @@ i:hover {
    place-items: center
 }
  #sectionC {
-  width:50%;
+  width:60%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -270,6 +264,24 @@ i:hover {
         text-align: center;
 
     }
+    li#about {
+        margin:0;
+        padding: 0;
+        max-width: 0;
+        overflow: hidden;
+        background: white;
+        transition: all .7s cubic-bezier(0.215, 0.610, 0.355, 1);
+    }
+    .fixed-nav li#about {
+        max-width: 500px;
+        padding: 1px;
+        margin:1px 10px 0 0;
+        white-space: nowrap;
+        /* border: 1px dotted rgba(0, 0, 0, 0.562); */
+        display: flex;
+        word-wrap: none;
+        text-align: center;
+    }
     .contentWrap {
         font-size: 0.8em
     }
@@ -305,7 +317,7 @@ i:hover {
     #sectionC  {
         display: flex;
         flex-direction: column;
-        align-items: center
+        justify-content: center;
     }
     #me {
         width: 35%
