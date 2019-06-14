@@ -10,7 +10,7 @@ function fixNav() {
   }
 }
 window.addEventListener('scroll', fixNav);
-
+$
 
 function scrol(cardId) {
     

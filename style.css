@@ -188,12 +188,27 @@ i:hover {
     color:#eaeaea ;
     margin-bottom: 100px
  }
- #sectionB img {
-     height: 70%
+ #sectionB  a{
+     filter: blur(2px);
+     transform: scale();
+     transition: transform 0.5s
  }
  #sectionB > div {
      margin-bottom: 100px
  }
+ #sectionB a:hover{
+   /* animation: scale 0.5s forwards; */
+   filter: blur(0);
+   transform: scale(1.1);
+
+
+    
+}
+#sectionB a {
+    
+
+    
+}
  /* #sectionC {
      display: grid ;
      margin: 0;
@@ -261,7 +276,7 @@ i:hover {
 }
 @keyframes scale {
     100% {
-        transform: scale(1.2);
+        transform: scale(1.1);
         box-shadow: 0 0 10px 5px;
         background: rgba(75, 13, 75, 0.6);
         z-index: 1;
