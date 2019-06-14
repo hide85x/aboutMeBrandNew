@@ -139,6 +139,16 @@ i:hover {
     justify-content: center;
 
 }
+.contentWrap > p {
+    margin: 0 100px;
+    font-size: 1.2em
+}
+.prolink {
+    border:3px solid black !important;
+    border-radius: 4px;
+    padding:2px;
+    color:dodgerblue
+}
 .grid {
    margin-bottom: 50px
 }
@@ -170,7 +180,7 @@ i:hover {
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    flex-direction: column;
      width: 80%;
     min-width: 80%;
     padding: 0 100px;
@@ -179,6 +189,10 @@ i:hover {
     margin-bottom: 100px
  }
  #sectionB img {
+     height: 70%
+ }
+ #sectionB > div {
+     margin-bottom: 100px
  }
  /* #sectionC {
      display: grid ;
@@ -194,7 +208,8 @@ i:hover {
    display: flex;
    align-items: center;
    justify-content: center;
-   place-items: center
+   place-items: center;
+   margin-bottom: 50px
 }
  #sectionC {
   width:60%;
@@ -203,7 +218,6 @@ i:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px
 
  }
  #sectionC>div {
@@ -332,6 +346,9 @@ i:hover {
         display: flex;
         margin: auto;
         justify-content: center
+    }
+    #sectionB {
+        flex-direction: column
     }
     .text{
         padding: 0 300px;
