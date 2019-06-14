@@ -144,7 +144,7 @@ i:hover {
     font-size: 1.2em
 }
 .prolink {
-    border:3px solid black !important;
+    border:3px solid black ;
     border-radius: 4px;
     padding:2px;
     color:dodgerblue
