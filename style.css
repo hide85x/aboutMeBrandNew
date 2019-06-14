@@ -300,7 +300,12 @@ i:hover {
         text-align: center;
     }
     .contentWrap {
-        font-size: 0.8em
+        font-size: 0.8em;
+        padding: 0px
+    }
+    .contentWrap p {
+        margin: 1px;
+        padding: 2px
     }
  
     #navbar {
