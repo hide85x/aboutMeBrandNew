@@ -1,8 +1,8 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    font-family: 'Acme', sans-serif;   
+     background: #333;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
@@ -176,6 +176,9 @@ i:hover {
  #sectionA {
     padding-bottom: 2em;
 }
+#sectionB p{
+    margin-bottom: 0
+}
  #sectionB {
     display: flex;
     align-items: center;
@@ -194,7 +197,7 @@ i:hover {
      transition: transform 0.5s
  }
  #sectionB > div {
-     margin-bottom: 100px
+     margin-bottom: 50px
  }
  #sectionB a:hover{
    /* animation: scale 0.5s forwards; */
@@ -377,5 +380,7 @@ i:hover {
         margin: 10px;
         font-size: 1.5em
     }
-   
+   .card {
+       width:80%;
+   }
 }
