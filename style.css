@@ -146,8 +146,7 @@ i:hover {
     font-size: 1.2em
 }
 .prolink {
-    border:3px solid black ;
-    border-radius: 4px;
+    border:1px solid black ;
     padding:2px;
     color:dodgerblue
 }
@@ -197,7 +196,7 @@ i:hover {
     margin-bottom: 50px
  }
  #sectionB  a{
-     filter: blur(2px);
+     filter: blur(1px);
      transform: scale();
      transition: transform 0.5s
  }
